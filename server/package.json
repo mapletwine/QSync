@@ -1,0 +1,29 @@
+{
+  "name": "qsync-server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "obs-websocket-js": "^5.0.6",
+    "osc": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "execMap": {
+    "ts": "ts-node"
+  }
+}
